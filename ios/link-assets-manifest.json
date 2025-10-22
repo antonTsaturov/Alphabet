@@ -1,0 +1,17 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/Arial Round.otf",
+      "sha1": "46231f7594267faede40576abe60bf011e5e9574"
+    },
+    {
+      "path": "assets/fonts/Cyrillic Round.ttf",
+      "sha1": "ae5060f0c5817fb7fbde12e74d8aaa804e54e485"
+    },
+    {
+      "path": "assets/fonts/Neucha.ttf",
+      "sha1": "fb4e9123d5d0adcd6fb3036372d1b603548a7b43"
+    }
+  ]
+}

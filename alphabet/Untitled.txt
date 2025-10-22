@@ -1,0 +1,14 @@
+  //const alphabetRU = [
+//   'Аа', 'Бб', 'Вв', 'Гг', 'Дд', 'Ее', 'Ёё', 
+//   'Жж', 'Зз', 'Ии', 'Йй', 'Кк', 'Лл', 'Мм', 
+//   'Нн', 'Оо', 'Пп', 'Рр', 'Сс', 'Тт', 'Уу', 
+//   'Фф', 'Хх', 'Цц', 'Чч', 'Шш', 'Щщ', 'ъ', 
+//   'ы', 'ь', 'Ээ', 'Юю', 'Яя'
+// ];
+
+
+      <ImageBackground
+        source={require("./assets/backgrounds/sky.jpg")}
+        style={styles.background}
+        resizeMode="cover" // 'cover', "contain", "stretch", "repeat", "center"
+        > 

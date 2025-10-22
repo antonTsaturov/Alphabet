@@ -1,0 +1,58 @@
+
+<Modal
+  key='DEMO'
+  animationType="slide"
+  transparent={true}
+  visible={modalDemo}
+  onRequestClose={() => {
+    setModalDemo(!modalDemo);
+  }}>
+  <View style={styles.modalContainer}>
+    <View style={styles.modalView}>
+
+      <Text style={styles.demoTextModal}>
+        В бесплатной версии доступно только 5 букв.
+        Для получения полного доступа к игре перейдите на страницу покупки.
+      </Text>
+
+      <TouchableOpacity
+        //style={styles.demoBtnModal}
+        onPress={()=>{
+          navigation.navigate('Purchase')
+        }}
+      >
+        <LinearGradient
+          colors={['#ed365b', '#f592a6']}
+          style={styles.demoBtnModal}
+          start={{ x: 0, y: 1 }}
+          end={{ x: 0, y: 0 }}
+        >
+          <Text
+            style={styles.demoTxtBtnModal}>
+            На страницу покупки</Text>
+        </LinearGradient>
+      </TouchableOpacity>
+
+      <TouchableOpacity
+        key='CLOSE'
+        //style={styles.demoBtnModal}
+        onPress={()=>{
+          setModalDemo(!modalDemo)
+        }}
+      >
+        <LinearGradient
+          colors={['#3b9aed', '#36b6ed']}
+          style={styles.demoBtnModal}
+          start={{ x: 0, y: 1 }}
+          end={{ x: 0, y: 0 }}
+        >
+          <Text
+            style={styles.demoTxtBtnModal}>
+            Закрыть</Text>
+        </LinearGradient>
+      </TouchableOpacity>
+
+
+    </View>
+  </View>
+</Modal>
